@@ -1,6 +1,5 @@
 import { drizzle } from "drizzle-orm/neon-http";
 import { neon } from "@neondatabase/serverless";
-import config from "@/lib/config";
 
 // config({ path: ".env" }); // or .env.local
 

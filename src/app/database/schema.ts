@@ -1,6 +1,6 @@
 import { timestamp } from "drizzle-orm/pg-core";
 import { pgEnum, uuid, varchar, date } from "drizzle-orm/pg-core";
-import { integer, text, boolean, pgTable } from "drizzle-orm/pg-core";
+import { integer, text, pgTable } from "drizzle-orm/pg-core";
 
 export const STATUS_ENUM = pgEnum("status", [
   "PENDING",

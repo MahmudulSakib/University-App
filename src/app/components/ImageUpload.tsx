@@ -168,13 +168,7 @@
 "use client";
 
 import { useRef, useState } from "react";
-import {
-  upload,
-  ImageKitAbortError,
-  ImageKitInvalidRequestError,
-  ImageKitServerError,
-  ImageKitUploadNetworkError,
-} from "@imagekit/next";
+import { upload } from "@imagekit/next";
 
 interface ImageUploadProps {
   value?: string;
