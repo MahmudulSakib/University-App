@@ -23,6 +23,6 @@ export async function GET() {
 
   return NextResponse.json({
     ...authParams,
-    publicKey, // <-- include this so the frontend has access to it
+    publicKey,
   });
 }
